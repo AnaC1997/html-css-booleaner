@@ -1,22 +1,15 @@
-body{
-    margin: 0;
-    padding:0 ;
-    
-    
-}
-
 .header-container{
-    background-repeat: repeat-y;
     background: rgb(99, 99, 253);
-    width: 100%;
+    width:max-content;
     height: 18vh;
+    
    
 }
 
 .logo{
     top:0;
     left: 0;
-    position: absolute;
+    position:absolute;
     
 }
 
