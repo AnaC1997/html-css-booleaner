@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding:0 ;
+    
+    
+}
+
+.header-container{
+    background-repeat: repeat-y;
+    background: rgb(99, 99, 253);
+    width: 100%;
+    height: 18vh;
+   
+}
+
+.logo{
+    top:0;
+    left: 0;
+    position: absolute;
+    
+}
+
+.lettera-grigia{
+    color: rgb(131, 132, 132);
+
+}
+
+a{
+    color: rgb(82, 166, 230);
+}
+
+.lettera-gialla{
+    color: black;
+    background-color: yellow;
+}
+
+thead{
+    background-color: rgb(103, 122, 184);
+}
+
+.riga-blue{
+    background-color: rgb(59, 165, 218);
+}
+
+.container{
+    position: relative;
+}
+
+.overlay-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: beige;
+    
+}
