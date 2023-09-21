@@ -1,20 +1,74 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;  
+
+}
+
+/**
+main, 
+footer{
+    padding-left:  20px ;
+    padding-right: 20px;
+    
+
+    
+ 
+    
+
+}
+*/
+
+
+header,
+main,
+footer {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
 .header-container{
-    background: rgb(99, 99, 253);
-    width:max-content;
-    height: 18vh;
-    
-   
+    width: 100%;
+    margin: 0;
+}
+header{
+    height: 100px;
+    background-color: rgb(6, 9, 205);
+    background-image: url("../img/pattern.png");
+    background-size: 28%;
+  
+     
+
 }
 
-.logo{
-    top:0;
-    left: 0;
-    position:absolute;
-    
+.logo {
+	height: 50px;
+	margin-top: 40px;
 }
 
-.lettera-grigia{
-    color: rgb(131, 132, 132);
+    
+ main{
+    padding-top: 16px;
+ } 
+ 
+ main h1{
+    font-size: 40px;
+    line-height: 45px;
+ }
+
+
+.section-img{
+    font-size: 12px;
+}
+
+main figure{
+    margin: 20px 0;
+}
+
+main figcaption{
+    font-size: 1px 0;
 
 }
 
@@ -22,11 +76,15 @@ a{
     color: rgb(82, 166, 230);
 }
 
-.lettera-gialla{
-    color: black;
+.parola-gialla{
+    color: rgb(21, 21, 5);
     background-color: yellow;
+   
 }
 
+.parola-grigia{
+    color: gray;
+}
 thead{
     background-color: rgb(103, 122, 184);
 }
@@ -34,10 +92,33 @@ thead{
 .riga-blue{
     background-color: rgb(59, 165, 218);
 }
+.content{
+    
+}
 
 .container{
     position: relative;
 }
+
+.content ul{
+    margin: 32px 16px;
+
+
+}
+
+.content table {
+    border-collapse: collapse;
+}
+
+.paragrafo{
+    margin: 20px 0;
+
+}
+
+footer{
+    margin: 30px 0;
+}
+
 
 .overlay-text{
     position: absolute;
@@ -46,3 +127,4 @@ thead{
     color: beige;
     
 }
+
